@@ -1,0 +1,3 @@
+# React setInterval Memory Leak
+
+This repository demonstrates a common error in React applications involving the use of `setInterval` without proper cleanup.  The component uses `setInterval` to update a counter, but fails to clear the interval when the component is unmounted, leading to a memory leak. The solution demonstrates how to correctly use `setInterval` with cleanup to prevent this issue.  The `bug.js` file shows the erroneous code, while `bugSolution.js` shows the corrected version. 
